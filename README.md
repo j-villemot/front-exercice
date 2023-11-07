@@ -31,6 +31,8 @@ The table should have the following columns:
 
 Feel free to group multiple information in one column if you think it’s relevant!
 
+The table might be paginated if you think it’s relevant too.
+
 ## Side notes
 
 - It’s important that you produce clear, reusable, future-proof code.
