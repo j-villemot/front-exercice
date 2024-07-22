@@ -8,6 +8,7 @@ npm start
 ```
 
 ## API url
+
 ```bash
 http://localhost:5173/api (/api)
 ```
@@ -23,6 +24,7 @@ You’re in charge of the front end and the server team is working on the back-e
 What we expect you to build, is an interface for displaying the movies ranked by duration. We use Ant Design as a UI framework and we would like you to use the `Table` component.
 
 The table should have the following columns:
+
 - Poster
 - Title
 - Year of release
@@ -44,5 +46,6 @@ The table might be paginated if you think it’s relevant too.
 You’re expected to deliver a Github Repo with clear install and run instructions as well as a screenshot in the readme file.
 
 ## Links
+
 - And Design https://ant.design/ (https://ant.design/components/overview/)
 - React https://reactjs.org/
