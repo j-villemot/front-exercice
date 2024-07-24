@@ -18,25 +18,26 @@ The goal of the app that you’re building is to list movies ranked by rating an
 
 At this moment, the app is basically a blank page with a title. Feel free to delete the title if you want.
 
-You’re in charge of the front end and the server team is working on the back-end. They gave you a "REST" API url (/api) to retrieve the data all in one call.
+You’re in charge of the front end and the server you're using is in the repo in the server.js file.
 
-What we expect you to build, is an interface for displaying the **10 best movies ranked by scores**
+What we expect you to build, is an interface for displaying the **Best movies ranked by scores**
 
 The table should have the following columns:
 - Poster
-- Ranking
+- Rating
 - Title
 - Year of release
-- Duration (with the format hh:mm:ss)
+- Duration (with the format hh:mm)
 - Plot
-- Genre *Clickable tags to filter the list*
+- Genre *Clickable to filter the list*
 
 Feel free to group multiple information in one column if you think it’s relevant!
-The table should be paginated if you think it’s relevant too.
+An advanced requirement is to make the table paginated (the server handles pagination, read the code to understand how it works).
 
 ## Side notes
 
 - You **must** use **react** and **functional components**. The interface **must** be in english. For the rest, we use Typescript and Antd as a component library, but feel free to use any library you’re comfortable with. Just make sure the code is easy to understand for us :)
+- It's OK if you don't deliver everything that is asked for. Deliver a working interface and we can discuss how to improve it during the interview.
 - It’s important that you produce clear, reusable, future-proof code.
 - Produce a good-looking interface, but don’t focus on fancy CSS the quality of the JS is more important.
 - Don’t hesitate to comment your code if you feel it will make it clearer
